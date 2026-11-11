@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container header-container">
+            <h1 class="logo">Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+                <div class="hero-text">
+                    <h2>Hello, I'm <span class="highlight">Denis Kibet</span></h2>
+                    <p>Welcome to my personal portfolio website! I am a passionate web developer dedicated to building clean, responsive, and user-friendly web experiences.</p>
+                    <a href="#contact" class="btn">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am currently pursuing my studies in Computing and web design. I enjoy turning complex problems into simple, beautiful, and intuitive designs.</p>
+                
+                <h3>Educational Background</h3>
+                <ul>
+                    <li><strong>High School Diploma</strong> - Kipsangui Boys High School (2022 - 2025)</li>
+                    <li><strong>Bachelor's of  science in Aplied Computing</strong> - KCA University (2026 - Present)</li>
+                </ul>
+
+                <h3>Personal Interests</h3>
+                <ol>
+                    <li>Coding and exploring new web frameworks</li>
+                    <li>Reading tech blogs and science fiction novels</li>
+                    <li>Playing football and outdoor hiking</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-light">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <p>Here are five core technical skills I have acquired:</p>
+                <div class="skills-grid">
+                    <div class="skill-card">HTML5 & Semantic Markup</div>
+                    <div class="skill-card">CSS3, Flexbox & Grid</div>
+                    <div class="skill-card">JavaScript Fundamentals</div>
+                    <div class="skill-card">Git & GitHub Version Control</div>
+                    <div class="skill-card">Responsive Mobile Design</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <p>Here are three projects I have worked on:</p>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>E-Commerce Landing Page</h3>
+                        <p>A responsive landing page built with HTML and CSS featuring a modern product grid and call-to-action buttons.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Task Manager App</h3>
+                        <p>A simple task tracking web app utilizing JavaScript to handle user inputs, additions, and deletions dynamically.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Personal Blog</h3>
+                        <p>A multi-page blog layout structured with semantic HTML elements and styled using custom CSS variables.</p>
+                    </div>
+                </div>
+
+                <!-- Requirement: Table element included -->
+                <h3 class="table-title">Project Summary Overview</h3>
+                <table class="project-table">
+                    <thead>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Technology Used</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>E-Commerce Landing Page</td>
+                            <td>HTML, CSS</td>
+                            <td>Completed</td>
+                        </tr>
+                        <tr>
+                            <td>Task Manager App</td>
+                            <td>HTML, CSS, JS</td>
+                            <td>Completed</td>
+                        </tr>
+                        <tr>
+                            <td>Personal Blog</td>
+                            <td>HTML, CSS</td>
+                            <td>In Progress</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out via email at <a href="mailto:kibetdenis@example.com" class="email-link">kibetdenis@example.com</a> or fill out the form below:</p>
+                
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Denis Kibet. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
